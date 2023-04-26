@@ -8,8 +8,8 @@ unset GIT_WORK_TREE
 
 cd "$SCRIPT_DIR"
 cd ../../../../../../pu-pu-punch-server/Dependencies/pu-pu-punch-library
-git pull
+git pull &
 
 cd "$SCRIPT_DIR"
 cd ../../../../../../pu-pu-punch-ai/Dependencies/pu-pu-punch-library
-git pull
+git pull &

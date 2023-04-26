@@ -34,9 +34,9 @@ unset GIT_WORK_TREE
 
 cd "$SCRIPT_DIR"
 cd ../../../../../../project-a/XXXXXX
-git pull
+git pull &
 
 cd "$SCRIPT_DIR"
 cd ../../../../../../project-b/XXXXXX
-git pull
+git pull &
 ```
