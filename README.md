@@ -3,7 +3,7 @@ Remainder on how to create a "post-push" hooks
 
 Basically needed a small script to sync some of my submodules after a git push while developping
 
-In your `.git/hooks` folder or `.git/modules/XXXXXX`
+In your `.git/hooks` folder or `.git/modules/XXXXXX/hooks`
 
 `reference-transaction`:
 ```sh
