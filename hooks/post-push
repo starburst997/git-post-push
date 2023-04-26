@@ -1,0 +1,15 @@
+#!/bin/bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+# `git` command is not going to use the current directory if those are set
+unset GIT_DIR
+unset GIT_WORK_TREE
+
+cd "$SCRIPT_DIR"
+cd ../../../../../../pu-pu-punch-server/Dependencies/pu-pu-punch-library
+git pull
+
+cd "$SCRIPT_DIR"
+cd ../../../../../../pu-pu-punch-ai/Dependencies/pu-pu-punch-library
+git pull
